@@ -31,7 +31,17 @@
 
 .Favourite:hover svg {
   
-  color: rgb(236, 230, 220);
+  color: rgb(247, 96, 9)
+}
+
+.add-favourites svg {
+  color: #0b0c13;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.add-favourites:hover svg {
+  color: rgb(250, 7, 80);
 }
 
 .trending {
@@ -61,4 +71,5 @@
 .A-Z  {
   padding: 10px;
   background-color: #FAF6F0;
+  cursor: pointer;
 }
