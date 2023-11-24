@@ -17,7 +17,7 @@ const Carousel = ({data}) => {
     const imageStyle ={
         maxwWidth: "100%",
         height: "400px",
-        padding: "20px",
+        padding: "80px",
         
     };
 

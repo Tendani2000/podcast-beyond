@@ -1,13 +1,14 @@
 .App {
   overflow: hidden;
   margin: 0 auto;
+  background-color: #EEF5FF;
 }
 
 .header {
   display: flex;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #111636 1.18%, rgba(233, 236, 238, 0.4) 100%);
+  background: linear-gradient(90deg, #0b0c13 1.18%, rgba(148, 72, 110, 0.4) 100%);
   color: rgb(238, 238, 238);
   padding: 15px;
 }
@@ -21,18 +22,43 @@
   margin: 0 auto;
 }
 
+.Favourite svg{
+  color: #0b0c13;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.Favourite:hover svg {
+  
+  color: rgb(236, 230, 220);
+}
+
 .trending {
   text-align: center;
   font-style: italic;
-  color: rgb(88, 4, 8);
+  color: #872341;
 }
 
 .carousel--title{
   text-align: left;
-  padding-left: 25px;
+  padding-left: 85px;
 }
 
 .show--image{
   width: 250px;
   height: 250px;
+}
+
+.show--title{
+  color: #CE5A67;
+}
+
+.show--desc{
+  color: #22092C;
+}
+
+.A-Z  {
+  padding: 10px;
+  background-color: #FAF6F0;
 }
